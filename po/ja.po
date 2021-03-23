@@ -1,18 +1,18 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Japanese translations for drawing package.
+# Copyright (C) 2021 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the drawing package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Hebi-no-Sekigae <oyamadajun@outlook.jp>, 2021.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: drawing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-23 00:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Last-Translator: Hebi-no-Sekigae <oyamadajun@outlook.jp>\n"
+"Language-Team: \n"
+"Language: Ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,41 +21,41 @@ msgstr ""
 #: data/com.github.maoschanz.drawing.appdata.xml.in src/deco_manager.py
 #: src/main.py
 msgid "Drawing"
-msgstr ""
+msgstr "Drawing"
 
 #: data/com.github.maoschanz.drawing.desktop.in
 msgid "Simple drawing utility"
-msgstr ""
+msgstr "シンプルな描画アプリケーション"
 
 #. This is a list of keywords. "Paint" should not be translated, the others should. Don't forget the semicolons.
 #: data/com.github.maoschanz.drawing.desktop.in
 msgid "Paint;Sketch;Pencil;"
-msgstr ""
+msgstr "paint;スケッチ；鉛筆"
 
 #. Context: answer to "where do you want to open the image?"
 #: data/com.github.maoschanz.drawing.desktop.in src/ui/app-menus.ui
 #: src/ui/shortcuts.ui src/ui/win-menus.ui src/window.py
 msgid "New Window"
-msgstr ""
+msgstr "新しいウィンドウ"
 
 #: data/com.github.maoschanz.drawing.desktop.in src/ui/app-menus.ui
 #: src/ui/headerbar.ui src/ui/headerbar-eos.ui src/ui/toolbar.ui
 #: src/ui/toolbar-symbolic.ui src/ui/window.ui src/ui/win-menus.ui
 msgid "New Image"
-msgstr ""
+msgstr "新しい画像"
 
 #: data/com.github.maoschanz.drawing.desktop.in
 msgid "Edit Image in Clipboard"
-msgstr ""
+msgstr "クリップボードの画像を編集"
 
 #: data/com.github.maoschanz.drawing.appdata.xml.in
 msgid "A drawing application for the GNOME desktop"
-msgstr ""
+msgstr "GNOME用の描画アプリケーション"
 
 #: data/com.github.maoschanz.drawing.appdata.xml.in
 msgid ""
 "\"Drawing\" is a basic image editor, supporting PNG, JPEG and BMP file types."
-msgstr ""
+msgstr "Drawing は、PNG、JPEG、BMP に対応する基本的な画像編集ソフトです。"
 
 #: data/com.github.maoschanz.drawing.appdata.xml.in
 msgid ""
@@ -119,7 +119,7 @@ msgstr ""
 #. This is just my name, do not translate it.
 #: data/com.github.maoschanz.drawing.appdata.xml.in
 msgid "Romain F. T."
-msgstr ""
+msgstr "Romain F. T"
 
 #. Caption of a screenshot, for appstores
 #: data/com.github.maoschanz.drawing.appdata.xml.in
@@ -143,263 +143,263 @@ msgstr ""
 
 #: src/ui/app-menus.ui
 msgid "_File"
-msgstr ""
+msgstr "ファイル"
 
 #: src/ui/app-menus.ui src/ui/toolbar.ui src/ui/toolbar-symbolic.ui
 #: src/ui/win-menus.ui
 msgid "Open an image"
-msgstr ""
+msgstr "画像を読み込む"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui src/ui/win-menus.ui
 msgid "New Blank Image"
-msgstr ""
+msgstr "新規作成"
 
 #: src/ui/app-menus.ui src/ui/win-menus.ui src/new_image_dialog.py
 msgid "New Image With Custom Size"
-msgstr ""
+msgstr "カスタムサイズで新規作成"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui src/ui/win-menus.ui
 msgid "New Image From Selection"
-msgstr ""
+msgstr "選択した範囲で新規作成"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui src/ui/win-menus.ui
 msgid "New Image From Clipboard"
-msgstr ""
+msgstr "クリップボードから新規作成"
 
 #: src/ui/app-menus.ui src/ui/win-menus.ui
 msgid "Reload file"
-msgstr ""
+msgstr "ファイルの再読込み"
 
 #: src/ui/app-menus.ui src/ui/win-menus.ui src/properties.py
 msgid "Image properties"
-msgstr ""
+msgstr "画像のプロパティ"
 
 #: src/ui/app-menus.ui src/ui/headerbar.ui src/ui/headerbar-eos.ui
 #: src/ui/shortcuts.ui src/ui/toolbar.ui src/ui/toolbar-symbolic.ui
 #: src/saving_manager.py
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: src/ui/app-menus.ui src/ui/win-menus.ui
 msgid "Save without transparency"
-msgstr ""
+msgstr "透過せず保存"
 
 #: src/ui/app-menus.ui src/ui/headerbar-eos.ui src/ui/win-menus.ui
 #: src/saving_manager.py
 msgid "Save as…"
-msgstr ""
+msgstr "名前をつけて保存"
 
 #: src/ui/app-menus.ui src/ui/selection-manager.ui src/ui/win-menus.ui
 #: src/optionsbars/selection/optionsbar-selection.ui src/tools/ui/selection.ui
 msgid "Export as…"
-msgstr ""
+msgstr "名前をつけてエクスポート"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui src/ui/toolbar.ui
 #: src/ui/toolbar-symbolic.ui src/ui/win-menus.ui
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "クリップボードにコピー"
 
 #: src/ui/app-menus.ui src/ui/toolbar.ui src/ui/toolbar-symbolic.ui
 #: src/ui/win-menus.ui
 msgid "Print"
-msgstr ""
+msgstr "印刷"
 
 #: src/ui/app-menus.ui
 msgid "Close Image"
-msgstr ""
+msgstr "画像を閉じる"
 
 #: src/ui/app-menus.ui
 msgid "Close Window"
-msgstr ""
+msgstr "ウィンドウを閉じる"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui
 msgid "Quit all windows"
-msgstr ""
+msgstr "すべてのウィンドウを閉じる"
 
 #: src/ui/app-menus.ui
 msgid "_Edit"
-msgstr ""
+msgstr "_編集"
 
 #: src/ui/app-menus.ui src/ui/headerbar.ui src/ui/headerbar-eos.ui
 #: src/ui/shortcuts.ui src/ui/toolbar.ui src/ui/toolbar-symbolic.ui
 #: src/deco_manager.py
 msgid "Undo"
-msgstr ""
+msgstr "元に戻す"
 
 #: src/ui/app-menus.ui src/ui/headerbar.ui src/ui/headerbar-eos.ui
 #: src/ui/shortcuts.ui src/ui/toolbar.ui src/ui/toolbar-symbolic.ui
 #: src/deco_manager.py
 msgid "Redo"
-msgstr ""
+msgstr "やり直す"
 
 #: src/ui/app-menus.ui
 msgid "Rebuild from history"
-msgstr ""
+msgstr "履歴から再構築"
 
 #: src/ui/app-menus.ui src/ui/selection-manager.ui src/ui/shortcuts.ui
 #: src/optionsbars/selection/optionsbar-selection.ui src/tools/ui/selection.ui
 msgid "Select all"
-msgstr ""
+msgstr "すべて選択"
 
 #: src/ui/app-menus.ui src/ui/selection-manager.ui src/ui/shortcuts.ui
 #: src/optionsbars/selection/optionsbar-selection.ui src/tools/ui/selection.ui
 msgid "Cut"
-msgstr ""
+msgstr "切り取り"
 
 #: src/ui/app-menus.ui src/ui/selection-manager.ui src/ui/shortcuts.ui
 #: src/optionsbars/selection/optionsbar-selection.ui src/tools/ui/selection.ui
 msgid "Copy"
-msgstr ""
+msgstr "コピー"
 
 #: src/ui/app-menus.ui src/ui/selection-manager.ui
 #: src/optionsbars/selection/optionsbar-selection.ui src/tools/ui/selection.ui
 msgid "Delete"
-msgstr ""
+msgstr "削除"
 
 #: src/ui/app-menus.ui src/ui/selection-manager.ui src/ui/shortcuts.ui
 #: src/ui/toolbar.ui src/ui/toolbar-symbolic.ui
 #: src/optionsbars/selection/optionsbar-selection.ui
 msgid "Paste"
-msgstr ""
+msgstr "貼り付け"
 
 #: src/ui/app-menus.ui src/ui/selection-manager.ui src/ui/toolbar.ui
 #: src/ui/toolbar-symbolic.ui src/window.py
 #: src/optionsbars/selection/optionsbar-selection.ui
 msgid "Import"
-msgstr ""
+msgstr "インポート"
 
 #: src/ui/app-menus.ui src/ui/preferences.ui src/ui/win-menus.ui
 #: src/preferences.py
 msgid "Preferences"
-msgstr ""
+msgstr "設定"
 
 #: src/ui/app-menus.ui
 msgid "_View"
-msgstr ""
+msgstr "_ビュー"
 
 #: src/ui/app-menus.ui
 msgid "Show the preview"
-msgstr ""
+msgstr "プレビューを表示"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui src/preferences.py
 msgid "Zoom"
-msgstr ""
+msgstr "拡大"
 
 #: src/ui/app-menus.ui src/ui/minimap.ui src/ui/shortcuts.ui
 msgid "Optimal Zoom"
-msgstr ""
+msgstr "最適な拡大"
 
 #: src/ui/app-menus.ui src/ui/minimap.ui src/ui/shortcuts.ui src/ui/toolbar.ui
 #: src/ui/toolbar-symbolic.ui src/optionsbars/transform/optionsbar-crop.ui
 #: src/optionsbars/transform/optionsbar-scale.ui
 msgid "Zoom Out"
-msgstr ""
+msgstr "縮小"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui src/ui/toolbar.ui
 #: src/ui/toolbar-symbolic.ui src/optionsbars/transform/optionsbar-crop.ui
 #: src/optionsbars/transform/optionsbar-scale.ui
 msgid "Original Zoom"
-msgstr ""
+msgstr "元の拡大率"
 
 #: src/ui/app-menus.ui src/ui/minimap.ui src/ui/shortcuts.ui src/ui/toolbar.ui
 #: src/ui/toolbar-symbolic.ui src/optionsbars/transform/optionsbar-crop.ui
 #: src/optionsbars/transform/optionsbar-scale.ui
 msgid "Zoom In"
-msgstr ""
+msgstr "拡大"
 
 #. Context: this submenu is about moving the view to the
 #. left/right/top/bottom
 #: src/ui/app-menus.ui
 msgid "Position"
-msgstr ""
+msgstr "位置"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui
 msgid "Go Left"
-msgstr ""
+msgstr "左"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui
 msgid "Go Up"
-msgstr ""
+msgstr "上"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui
 msgid "Go Down"
-msgstr ""
+msgstr "下"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui
 msgid "Go Right"
-msgstr ""
+msgstr "右"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui
 msgid "Tab at the left"
-msgstr ""
+msgstr "左のタブ"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui
 msgid "Tab at the right"
-msgstr ""
+msgstr "右のタブ"
 
 #: src/ui/app-menus.ui
 msgid "Refresh"
-msgstr ""
+msgstr "更新"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui src/ui/win-menus.ui
 msgid "Fullscreen"
-msgstr ""
+msgstr "全画面表示"
 
 #: src/ui/app-menus.ui
 msgid "Hide toolbars"
-msgstr ""
+msgstr "ツールバーを非表示"
 
 #: src/ui/app-menus.ui src/ui/window.ui
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "全画面表示の終了"
 
 #: src/ui/app-menus.ui
 msgid "_Colors"
-msgstr ""
+msgstr "_カラー"
 
 #: src/ui/app-menus.ui
 msgid "Edit Main Color…"
-msgstr ""
+msgstr "メインカラーの編集"
 
 #: src/ui/app-menus.ui
 msgid "Edit Secondary Color…"
-msgstr ""
+msgstr "サブカラーの編集"
 
 #: src/ui/app-menus.ui
 msgid "Use color editor by default"
-msgstr ""
+msgstr "既定でカラーエディタを使用する"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui
 #: src/optionsbars/classic/optionsbar-classic.ui
 msgid "Exchange colors"
-msgstr ""
+msgstr "色の入れ替え"
 
 #: src/ui/app-menus.ui
 msgid "Color application mode"
-msgstr ""
+msgstr "カラーアプリケーションモード"
 
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar_color_popover.py
 #: src/optionsbars/classic/optionsbar-color-popover.ui
 msgid "Normal"
-msgstr ""
+msgstr "普通"
 
 #. Context: possible ways to apply the color to the canvas
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar_color_popover.py
 #: src/optionsbars/classic/optionsbar-operator-menus.ui
 msgid "Highlight"
-msgstr ""
+msgstr "ハイライト"
 
 #. Context: a possible way to highlight text
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar-operator-menus.ui
 #: src/tools/ui/tool-highlight.ui src/tools/classic_tools/tool_highlight.py
 msgid "Dark text on light background"
-msgstr ""
+msgstr "明るい背景に暗い文字"
 
 #. Context: a possible way to highlight text
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar-operator-menus.ui
 #: src/tools/ui/tool-highlight.ui src/tools/classic_tools/tool_highlight.py
 msgid "Light text on dark background"
-msgstr ""
+msgstr "暗い背景に明るい文字"
 
 #. Context: possible ways to apply the color to the canvas, using
 #. only some specific dimension(s) of the selected color in its
@@ -407,37 +407,37 @@ msgstr ""
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar_color_popover.py
 #: src/optionsbars/classic/optionsbar-operator-menus.ui
 msgid "HSL modes"
-msgstr ""
+msgstr "その他のモード"
 
 #. Context: a possible way to apply the color to the canvas
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar_color_popover.py
 #: src/optionsbars/classic/optionsbar-operator-menus.ui
 msgid "Hue only"
-msgstr ""
+msgstr "色相のみ"
 
 #. Context: a possible way to apply the color to the canvas
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar_color_popover.py
 #: src/optionsbars/classic/optionsbar-operator-menus.ui
 msgid "Saturation only"
-msgstr ""
+msgstr "彩度のみ"
 
 #. Context: a possible way to apply the color to the canvas
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar_color_popover.py
 #: src/optionsbars/classic/optionsbar-operator-menus.ui
 msgid "Hue and saturation"
-msgstr ""
+msgstr "色相と彩度"
 
 #. Context: a possible way to apply the color to the canvas
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar_color_popover.py
 #: src/optionsbars/classic/optionsbar-operator-menus.ui
 msgid "Luminosity only"
-msgstr ""
+msgstr "光度のみ"
 
 #. Context: possible ways to apply the color to the canvas
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar_color_popover.py
 #: src/optionsbars/classic/optionsbar-operator-menus.ui
 msgid "Other modes"
-msgstr ""
+msgstr "その他のモード"
 
 #. Context: a possible way to apply the color to the canvas
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar_color_popover.py
@@ -458,227 +458,227 @@ msgstr ""
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar_color_popover.py
 #: src/optionsbars/classic/optionsbar-color-popover.ui
 msgid "Erase"
-msgstr ""
+msgstr "削除"
 
 #: src/ui/app-menus.ui
 msgid "_Tools"
-msgstr ""
+msgstr "ツール"
 
 #: src/ui/app-menus.ui
 msgid "Previous tool"
-msgstr ""
+msgstr "前のツール"
 
 #: src/ui/app-menus.ui
 msgid "Active tool"
-msgstr ""
+msgstr "アクティブなツール"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui src/ui/win-menus.ui
 #: src/preferences.py
 msgid "Show tools names"
-msgstr ""
+msgstr "ツール名を表示する"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui
 msgid "Bigger width"
-msgstr ""
+msgstr "幅の拡大"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui
 msgid "Smaller width"
-msgstr ""
+msgstr "幅の縮小"
 
 #: src/ui/app-menus.ui
 msgid "Troubleshoot selection"
-msgstr ""
+msgstr "トラブルシューティングの選択"
 
 #: src/ui/app-menus.ui src/window.py
 msgid "_Options"
-msgstr ""
+msgstr "_オプション"
 
 #: src/ui/app-menus.ui
 msgid "_Help"
-msgstr ""
+msgstr "_ヘルプ"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui src/ui/win-menus.ui
 msgid "Shortcuts"
-msgstr ""
+msgstr "ショートカット"
 
 #: src/ui/app-menus.ui src/ui/window.ui src/ui/win-menus.ui
 msgid "Report a bug"
-msgstr ""
+msgstr "バグを報告"
 
 #. Context: open the index of all help pages
 #: src/ui/app-menus.ui
 msgid "Index"
-msgstr ""
+msgstr "目次"
 
 #. Context: submenu listing individual help pages
 #: src/ui/app-menus.ui
 msgid "Individual pages"
-msgstr ""
+msgstr "ページの一覧"
 
 #. Context: open the help page about general use of the app
 #: src/ui/app-menus.ui
 msgid "Basic help"
-msgstr ""
+msgstr "基本的なヘルプ"
 
 #: src/ui/app-menus.ui
 msgid "Help about zooming"
-msgstr ""
+msgstr "拡大に関するヘルプ"
 
 #: src/ui/app-menus.ui
 msgid "Help about the full-screen mode"
-msgstr ""
+msgstr "全画面表示に関するヘルプ"
 
 #: src/ui/app-menus.ui
 msgid "Help about classic tools"
-msgstr ""
+msgstr "クラシックツールに関するヘルプ"
 
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar-color-popover.ui
 msgid "Help about colors"
-msgstr ""
+msgstr "クラシックツールに関するヘルプ"
 
 #. Context: open the help page about transformation tools (crop,
 #. scale, rotate, filters, ...
 #: src/ui/app-menus.ui
 msgid "Help about transformation tools"
-msgstr ""
+msgstr "変換ツールに関するヘルプ"
 
 #: src/ui/app-menus.ui src/optionsbars/selection/optionsbar-selection.ui
 msgid "Help about selection"
-msgstr ""
+msgstr "選択に関するヘルプ"
 
 #: src/ui/app-menus.ui
 msgid "What's new"
-msgstr ""
+msgstr "新機能"
 
 #: src/ui/app-menus.ui src/ui/win-menus.ui
 msgid "About Drawing"
-msgstr ""
+msgstr "描画について"
 
 #: src/ui/headerbar.ui src/ui/headerbar-eos.ui src/ui/toolbar.ui
 #: src/ui/toolbar-symbolic.ui src/window.py
 msgid "Open"
-msgstr ""
+msgstr "開く"
 
 #: src/ui/headerbar-eos.ui
 msgid "Share the image"
-msgstr ""
+msgstr "画像を共有する"
 
 #: src/ui/minimap.ui
 msgid "100%"
-msgstr ""
+msgstr "100%"
 
 #: src/ui/new-image-dialog.ui src/ui/properties.ui
 #: src/optionsbars/transform/optionsbar-crop.ui
 #: src/optionsbars/transform/optionsbar-scale.ui
 msgid "Width"
-msgstr ""
+msgstr "幅"
 
 #: src/ui/new-image-dialog.ui src/ui/properties.ui
 #: src/optionsbars/transform/optionsbar-crop.ui
 #: src/optionsbars/transform/optionsbar-scale.ui
 msgid "Height"
-msgstr ""
+msgstr "高さ"
 
 #: src/ui/new-image-dialog.ui
 msgid "Color"
-msgstr ""
+msgstr "色"
 
 #: src/ui/new-image-dialog.ui
 msgid "Use these settings by default"
-msgstr ""
+msgstr "既定でこれらの設定を使用する"
 
 #: src/ui/preferences.ui
 msgid "Images"
-msgstr ""
+msgstr "画像"
 
 #: src/ui/preferences.ui src/ui/shortcuts.ui
 msgid "Tools"
-msgstr ""
+msgstr "ツール"
 
 #: src/ui/preferences.ui
 msgid "Window"
-msgstr ""
+msgstr "ウィンドウ"
 
 #. To translators: it's a measure unit, it appears in tooltips over
 #. numerical inputs
 #: src/ui/properties.ui src/utilities.py
 msgid "pixels"
-msgstr ""
+msgstr "ピクセル"
 
 #: src/ui/properties.ui
 msgid "centimeters"
-msgstr ""
+msgstr "センチメートル"
 
 #: src/ui/properties.ui
 msgid "inches"
-msgstr ""
+msgstr "インチ"
 
 #: src/ui/selection-manager.ui
 #: src/optionsbars/selection/optionsbar-selection.ui src/tools/ui/selection.ui
 msgid "Close selection"
-msgstr ""
+msgstr "選択の取り消し"
 
 #: src/ui/selection-manager.ui src/ui/shortcuts.ui
 #: src/optionsbars/selection/optionsbar-selection.ui src/tools/ui/selection.ui
 msgid "Unselect"
-msgstr ""
+msgstr "選択解除"
 
 #: src/ui/selection-manager.ui src/tools/ui/selection.ui
 #: src/tools/transform_tools/tool_crop.py
 msgid "Crop"
-msgstr ""
+msgstr "切り抜き"
 
 #: src/ui/selection-manager.ui src/tools/ui/selection.ui
 #: src/tools/transform_tools/tool_scale.py
 msgid "Scale"
-msgstr ""
+msgstr "大きさの変更"
 
 #: src/ui/selection-manager.ui src/tools/ui/selection.ui
 #: src/tools/transform_tools/tool_rotate.py
 msgid "Rotate"
-msgstr ""
+msgstr "回転"
 
 #: src/ui/selection-manager.ui src/tools/ui/selection.ui
 #: src/tools/transform_tools/tool_filters.py
 msgid "Filters"
-msgstr ""
+msgstr "フィルタ"
 
 #: src/ui/selection-manager.ui
 #: src/optionsbars/selection/optionsbar-selection.ui src/tools/ui/selection.ui
 msgid "Open As New Image"
-msgstr ""
+msgstr "新しい画像として開く"
 
 #: src/ui/shortcuts.ui
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "キーボードショートカット"
 
 #: src/ui/shortcuts.ui
 msgid "General"
-msgstr ""
+msgstr "一般"
 
 #: src/ui/shortcuts.ui
 msgid "Main menu"
-msgstr ""
+msgstr "メインメニュー"
 
 #: src/ui/shortcuts.ui src/ui/win-menus.ui
 msgid "Help"
-msgstr ""
+msgstr "ヘルプ"
 
 #: src/ui/shortcuts.ui
 msgid "Image"
-msgstr ""
+msgstr "画像"
 
 #: src/ui/shortcuts.ui src/window.py
 msgid "Open a picture"
-msgstr ""
+msgstr "画像を開く"
 
 #: src/ui/shortcuts.ui
 msgid "Reload image from disk"
-msgstr ""
+msgstr "ディスクから画像を再読み込み"
 
 #: src/ui/shortcuts.ui src/saving_manager.py
 msgid "Save picture as…"
-msgstr ""
+msgstr "名前をつけて保存"
 
 #: src/ui/shortcuts.ui
 msgid "Close the active image"
